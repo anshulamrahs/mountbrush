@@ -28,7 +28,7 @@ export const Home = () => {
     </header>
       <div className='homes'>
         <h1>Mountbrush</h1>
-        <h3>Travel with leisure</h3>
+        <div className="glitch" data-glitch="Hosting you soon">Hosting you soon</div>
       </div>
     </section>
   )
