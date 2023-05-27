@@ -1,12 +1,11 @@
 import React from 'react'
 import './navbar.scss'
-import logo from '../assets/mblogo.png'
+import logo from '../assets/mblogobg.png'
 import Men from '../assets/men.jpeg'
 
 const Navbar = () => {
   return (
     <header className='header'>
-    <div className='navbar'>
       <div className="logo">
         <img src={logo} alt=""/>
       </div>
@@ -22,7 +21,6 @@ const Navbar = () => {
         <img src={Men} alt=""/>
         <span>Account</span>
       </div>
-    </div>
     </header>
   )
 }
