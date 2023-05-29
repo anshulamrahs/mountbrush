@@ -80,94 +80,146 @@
     }
     .homes {
         position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 80%;
+        height: 200px;
+        display: flex;
+        top: 150px;
+        justify-content: space-around;
+        align-items: center;
+        
         
 
-        h1 {
-            font-size: 152px;
+        .booking {
+            color: white;
+            width: 20%;
+
+            
+
+            input {
+                width: 100%;
+                padding: 10px 25px;
+                border-radius: 5px;
+                border: none;
+                opacity: 0.9;
+            }
+        }
+        .checkIn {
+            color: rgb(255, 255, 255);
+            width: 20%;
+             input {
+                width: 70%;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-left: 50px;
+                border: none;
+                opacity: 0.9;
+             }
+        }
+        .checkOut {
+            color: rgb(255, 255, 255);
+            width: 20%;
+             input {
+                width: 70%;
+                padding: 10px 15px;
+                border-radius: 5px;
+                border: none;
+                opacity: 0.9;
+               // margin-left: 20px;
+             }
+        }
+        .rooms {
+            color: rgb(255, 255, 255);
+            width: 10%;
+             input {
+                width: 30%;
+                padding: 10px 15px;
+                border-radius: 5px;
+                border: none;
+                opacity: 0.9;
+             }
+        }
+        .searchb{
+            width: 10%;
+            
+
+            .search {
+                padding: 13px 40px;
+                margin-top: 60px;
+                border-radius: 10px;
+                border: none;
+                background-color: #3e46d7;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                
+            }
+        }
+
+        .explore {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            width: 90%;
+            height: 200px;
+            display: flex;
+            top: 350px;
+            justify-content: space-between;
+            align-items: center;
+       
+
+       .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 90%;
+        flex-wrap: wrap;
+        
+
+           h2 {
+            font-size: 33px;
+            color: white;
             font-family: sans-serif;
-            margin: 50px;
-            line-height: 142px;
-            color: transparent;
-            -webkit-text-stroke: 1px #fff;
-            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../assets/mbrem.png);
-            -webkit-background-clip: text;
-            background-clip: text;
-            background-position: 0 0;
-            animation: back 35s linear infinite;
+            //margin-left: -500px;
+            width: 40%;
+            margin: 10px;
+           }
+           p {
+            font-size: 18px;
+            color: white;
+            width: 90%;
+            //width: 70%;
+            font-family: nunito,sans-serif;
+            text-align: left;
+            margin: 0px 0px 40px 40px;
+            
+           }
+       }
+
+       .bt {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        
+
+        .disc {
+            padding: 20px 40px;
+            margin-top: 60px;
+            border-radius: 15px;
+            border: none;
+            background-color: #3e46d7;
+            color: white;
+            margin-bottom: 50px;
+            font-weight: bold;
+            cursor: pointer;
             
         }
-        @keyframes back {
-            100% {
-              background-position: 2000px 0;
-            }
-          }
-
-        h3 {
-            font-size: 52px;
-            font-family: nunito,sans-serif;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: rgb(255, 255, 255,0.8);
-            background-color: rgba(0, 0, 0, 0.4);
-            font-family: sans-serif;
-            color: rgba(0, 0, 0, 0.4);
+       }
         }
 
-        .glitch {
-            position: relative;
-            font-size: 60px;
-            font-weight: 700;
-            line-height: 1.2;
-            color: #fff;
-            letter-spacing: 5px;
-            z-index: 1;
-         }
-         
-         .glitch:before,
-         .glitch:after {
-            display: block;
-            content: attr(data-glitch);
-            position: absolute;
-            top: 0;
-            left: 200px;
-            opacity: 0.8;
-         }
-         
-         .glitch:before {
-            animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
-            color: rgb(255, 255, 255);
-            z-index: -1;
-         }
-         
-         .glitch:after {
-            animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
-            color: #9cf5b1;
-            z-index: -2;
-         }
-         
-         @keyframes glitch-color {
-            0% {
-               transform: translate(0);
-            }
-         
-            20% {
-               transform: translate(-3px, 3px);
-            }
-         
-            40% {
-               transform: translate(-3px, -3px);
-            }
-         
-            60% {
-               transform: translate(3px, 3px);
-            }
-         
-            80% {
-               transform: translate(3px, -3px);
-            }
-         
-            to {
-               transform: translate(0);
-            }
-         }
+
+
+        
     }
 }
