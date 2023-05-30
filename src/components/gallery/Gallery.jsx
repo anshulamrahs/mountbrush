@@ -3,7 +3,11 @@ import './gallery.scss'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+      <div className="round">
+        <div className="bar"></div>
+      </div>
+    </div>
   )
 }
 
