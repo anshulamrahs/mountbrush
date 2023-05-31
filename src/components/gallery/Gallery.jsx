@@ -3,11 +3,11 @@ import './gallery.scss'
 
 const Gallery = () => {
   return (
-    <div>
-      <div className="round">
-        <div className="bar"></div>
-      </div>
+   <section>
+    <div className="slider">
+      <img src="http://placehold.it/" alt=''/>
     </div>
+   </section>
   )
 }
 
