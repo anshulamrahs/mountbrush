@@ -4,7 +4,11 @@ import './carousel.scss'
 const Carousel = () => {
   return (
     <section>
-        <div>Carousel</div>
+        <div>Carousel
+            <div className="cv">
+                <div className="crv"></div>
+            </div>
+        </div>
     </section>
   )
 }
