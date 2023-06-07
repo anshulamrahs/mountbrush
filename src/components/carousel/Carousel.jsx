@@ -6,6 +6,11 @@ const Carousel = () => {
     <section>
         <div>Carousel
             <div className="fro"></div>
+            <div className="fro"></div>
+            <div className="fro"></div>
+            <div className="fro"></div>
+            <div className="fro"></div>
+            <div className="fro"></div>
         </div>
     </section>
   )
