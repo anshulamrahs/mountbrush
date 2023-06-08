@@ -5,6 +5,11 @@ const Carousel = () => {
   return (
     <section>
         <div>Carousel
+            <div className="fre"></div>
+            <div className="fre"></div>
+            <div className="fre"></div>
+            <div className="fre"></div>
+            <div className="fre"></div>
         </div>
     </section>
   )
