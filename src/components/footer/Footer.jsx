@@ -5,6 +5,11 @@ const Footer = () => {
   return (
     <div>
       <div className="map">Map components</div>
+      <div className="map">Map components</div>
+      <div className="map">Map components</div>
+      <div className="map">Map components</div>
+      <div className="map">Map components</div>
+      <div className="map">Map components</div>
       <div className="contact">contact </div>
     </div>
   )
