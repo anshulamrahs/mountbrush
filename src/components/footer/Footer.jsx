@@ -7,6 +7,9 @@ const Footer = () => {
       <div className="map">Map components</div>
       <div className="rows"></div>
       <div className="contact">contact </div>
+      <div className="contact">contact </div>
+      <div className="contact">contact </div>
+      <div className="contact">contact </div>
     </div>
   )
 }
