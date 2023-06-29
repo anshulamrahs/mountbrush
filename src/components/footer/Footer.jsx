@@ -3,12 +3,9 @@ import './footer.scss'
 
 const Footer = () => {
   return (
-    <div className="fr">
-     <div className="gf"></div>
-     <div className="jh">
-      <div className="ky"></div>
-     </div>
-    </div>
+   <section>
+    <img src="https://">
+   </section>
   )
 }
 
