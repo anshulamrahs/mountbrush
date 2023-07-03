@@ -4,7 +4,7 @@ import './footer.scss'
 const Footer = () => {
   return (
    <section>
-    <img src="https://">
+    <div className="gt"></div>
    </section>
   )
 }
