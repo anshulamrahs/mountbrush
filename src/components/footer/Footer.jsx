@@ -4,7 +4,13 @@ import './footer.scss'
 const Footer = () => {
   return (
    <section>
-    <div className="gt"></div>
+    <div className="gt">
+      <div className="jf">
+        <div className="lok">
+          
+        </div>
+      </div>
+    </div>
    </section>
   )
 }
