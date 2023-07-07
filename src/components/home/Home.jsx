@@ -8,7 +8,7 @@ import Men from '../assets/mens.jpeg'
 export const Home = () => {
   return (
     <section className='home'>
-       <img src={bg} alt=""/>
+        <img src={bg} alt=""/>
       <header className='header'>
       <div className="logo">
         <img src={logo} alt=""/>
@@ -48,9 +48,9 @@ export const Home = () => {
         </div>
       <div className="explore">
         <div className="text">
-      <h2>It's Vacation time!</h2>
-       <p>Plan your Vacation With Mountbrush Tours, create memorable moments, and find everything that you have been looking for…</p>
-        </div>
+        <h2>It's Vacation time!</h2>
+        <p>Plan your Vacation With Mountbrush Tours, create memorable moments, and find everything that you have been looking for…</p>
+      </div>
       <div className="bt">
         <button className='disc'>Discover</button>
       </div>
